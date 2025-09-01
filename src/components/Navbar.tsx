@@ -46,7 +46,7 @@ export default function Navbar() {
             <a
               key={cat}
               href="#"
-              className="text-sm font-semibold text-gray-700 hover:text-orange-500 whitespace-nowrap transition-colors"
+              className="text-sm text-gray-700 hover:text-orange-500 whitespace-nowrap transition-colors"
             >
               {cat}
             </a>

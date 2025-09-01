@@ -1,35 +1,26 @@
 // Make sure the Navbar component exists at this path or update the path if necessary
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import FlashSales from "@/components/FlashSales";
+import TopSellers from "@/components/TopSellers";
+import LimitedStockDeals from "@/components/LimitedStock";
 
 export default function Home() {
 	return (
 		<div className="min-h-screen bg-gray-50 font-sans">
 			{/* Navbar at the top */}
 			<Navbar />
-
 			{/* Hero section */}
 			<Hero />
-
 			{/* Main content sections */}
 			<main className="max-w-7xl mx-auto px-4 py-8 space-y-12">
 				{/* Flash Sales */}
-				<section className="bg-white rounded-lg shadow p-6">
-					<h2 className="text-2xl font-bold mb-4 text-orange-600">Flash Sales</h2>
-					{/* Flash Sales content will go here */}
-				</section>
-
+					<FlashSales />
 				{/* Top Sellers */}
-				<section className="bg-white rounded-lg shadow p-6">
-					<h2 className="text-2xl font-bold mb-4 text-blue-600">Top Sellers</h2>
-					{/* Top Sellers content will go here */}
-				</section>
+					<TopSellers />
 
 				{/* Limited Stock Deals */}
-				<section className="bg-white rounded-lg shadow p-6">
-					<h2 className="text-2xl font-bold mb-4 text-red-600">Limited Stock Deals</h2>
-					{/* Limited Stock Deals content will go here */}
-				</section>
+				<LimitedStockDeals />
 
 				{/* Best Phone Deals */}
 				<section className="bg-white rounded-lg shadow p-6">

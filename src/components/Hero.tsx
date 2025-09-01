@@ -54,7 +54,7 @@ export default function Hero() {
       <img
         src={slide.image}
         alt={slide.title}
-        className="absolute inset-0 w-full h-full object-cover opacity-60 scale-105 transition-transform duration-700"
+        className="absolute inset-0 w-full h-full object-cover opacity-20 scale-105 transition-transform duration-700"
         style={{ zIndex: 1 }}
       />
       {/* Overlay content */}
