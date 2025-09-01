@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between max-w-7xl mx-auto px-4 py-3">
         {/* Logo */}
         <div className="text-2xl font-extrabold text-orange-500 tracking-tight">
-          Koudobuy
+          XelvioMart
         </div>
         {/* Search bar */}
         <div className="flex-1 mx-6 max-w-xl">

@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import FlashSales from "@/components/FlashSales";
 import TopSellers from "@/components/TopSellers";
 import LimitedStockDeals from "@/components/LimitedStock";
+import BestPhone from "@/components/BestPhone";
+import SellingItem from "@/components/SellingItem";
 
 export default function Home() {
 	return (
@@ -23,16 +25,10 @@ export default function Home() {
 				<LimitedStockDeals />
 
 				{/* Best Phone Deals */}
-				<section className="bg-white rounded-lg shadow p-6">
-					<h2 className="text-2xl font-bold mb-4 text-green-600">Best Phone Deals</h2>
-					{/* Best Phone Deals content will go here */}
-				</section>
+				<BestPhone />
 
 				{/* Top Selling Items */}
-				<section className="bg-white rounded-lg shadow p-6">
-					<h2 className="text-2xl font-bold mb-4 text-purple-600">Top Selling Items</h2>
-					{/* Top Selling Items content will go here */}
-				</section>
+				<SellingItem />
 
 				{/* Appliances Upgrade Deals */}
 				<section className="bg-white rounded-lg shadow p-6">
